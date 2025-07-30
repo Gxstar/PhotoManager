@@ -8,3 +8,68 @@ wheels/
 
 # Virtual environments
 .venv
+
+# PySide6 specific
+*.qrc
+*.qrc.py
+*.ui
+*_ui.py
+*_rc.py
+
+# Qt Designer files
+*.ui
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Runtime files
+*.tmp
+*.temp
+.cache/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+
+# Documentation
+docs/_build/
+site/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Media files (if storing locally during development)
+media/
+uploads/
+
+# Backup files
+*.bak
+*.backup
+*.old
